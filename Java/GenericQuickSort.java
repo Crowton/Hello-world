@@ -2,7 +2,7 @@ import java.util.Arrays; // Only used for testing
 import java.util.Comparator;
 import java.util.Random;
 
-public class QuickSort {
+public class GenericQuickSort {
 
     public static <T extends Comparable<T>> void sort(T[] arr) {
         sort(arr, Comparator.naturalOrder());
