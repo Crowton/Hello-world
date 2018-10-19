@@ -1,7 +1,7 @@
 import java.util.Arrays; // Only used for test
 import java.util.Comparator;
 
-public class MergeSort {
+public class GenericMergeSort {
 
     public static <T extends Comparable<T>> void sort(T[] arr) {
         sort(arr, Comparator.naturalOrder());
